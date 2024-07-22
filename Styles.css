@@ -8,28 +8,22 @@ body {
     background-color: #f0f0f0;
 }
 
-#chat-container {
+#landing-page, #chat-container {
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 400px;
     max-width: 100%;
     padding: 20px;
+    text-align: center;
 }
 
-#chat-box {
-    border: 1px solid #ccc;
-    padding: 10px;
-    height: 300px;
-    overflow-y: auto;
-    margin-bottom: 10px;
-}
-
-#message-input {
-    width: calc(100% - 60px);
+#username-input, #message-input {
+    width: calc(100% - 40px);
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 button {
@@ -39,6 +33,7 @@ button {
     color: #fff;
     border-radius: 5px;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
 button:hover {
@@ -47,4 +42,12 @@ button:hover {
 
 #photo-upload {
     margin-top: 10px;
+}
+
+#chat-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
 }
